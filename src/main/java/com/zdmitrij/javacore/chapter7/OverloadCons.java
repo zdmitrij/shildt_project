@@ -1,9 +1,18 @@
 package com.zdmitrij.javacore.chapter7;
-
+// в этой версии класса Box один объект допускается инициализировать другим объектом
 class Box {
     double width;
     double height;
     double depth;
+
+    //В этом конструкторе в качестве параметров используется объект
+    // типа Box
+
+    Box(Box ob) { //передать объект конструктору
+        width = ob.width;
+        height = ob.height;
+        depth = ob.depth;
+    }
 
     // это конструктор используемый при указании всех размеров
     Box(double w, double h, double d) {
