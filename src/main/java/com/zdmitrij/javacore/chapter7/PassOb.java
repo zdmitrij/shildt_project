@@ -20,8 +20,7 @@ class Test {
         }
     }
 }
-
-public class PassOb {
+class PassOb {
     public static void main(String[] args) {
         Test ob1 = new Test(100, 22);
         Test ob2 = new Test(100, 22);
