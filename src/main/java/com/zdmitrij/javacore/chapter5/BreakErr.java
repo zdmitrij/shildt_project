@@ -10,7 +10,7 @@ class BreakErr {
 
         for (int j = 0; j < 100; j++) {
             if (j == 10) {
-                break one; // Ошибка
+                break; // Ошибка, убрал индекс one сейчас
             }
             System.out.print(j + " ");
         }
