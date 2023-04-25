@@ -22,10 +22,10 @@ public class TreeMapDemo {
             System.out.print(me.getKey() + ": ");
             System.out.println(me.getValue());
         }
-        System.out.println(
+
 
                 //внести сумму 1000 на счет Джона Доу
-        double balance = tm.get("Джон Доу") ж
+        Double balance = tm.get("Джон Доу");
         tm.put("Джон Доу", balance + 1000);
         System.out.println("Новый остаток на счете Джона Доу " + tm.get("Джон Доу"));
     }
